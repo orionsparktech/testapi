@@ -1,9 +1,9 @@
 import {google} from 'googleapis';
 
-const serviceAccountKeyFile = "C://Users/cawpm/Desktop/test-bot-Copy/controllers/test.json";
-const sheetId = '1V9n2sZyHiSGvqMSCpYES2RoHgtYlOUkVWv-OkH5CKSo'
-const tabName = 'Sheet1'
-const range = 'A:E'
+const serviceAccountKeyFile = "./controllers/formgoogle.json";
+const sheetId = '17uSo243w6dcnKtEuxfqhc5dh1OJzBfRRP_Skly5ZSZ0'
+const tabName = 'Responses'
+const range = 'A:G'
 
 main().then(() => {
   console.log('Completed')
